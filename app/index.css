@@ -1,0 +1,194 @@
+html, body, #app {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  background: #14243c;
+  color: white;
+  padding: 30px 0;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  list-style-type: none;
+}
+
+nav img {
+  max-width: 200px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.nav img, nav h5 {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.transaction {
+  padding: 10px;
+  background-color: #E1F5FE;
+  border-radius: 3px;
+  margin-bottom: 2px;
+  width: auto
+}
+
+.inline-table {
+  display: inline-block;
+  width: calc(100% - 125px);
+  float: right;
+}
+
+table {
+  width: 100%;
+}
+
+.transaction p, .transaction span, .transaction img {
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.transaction span {
+  float: right;
+  color: grey;
+  font-size: 14;
+
+}
+
+.transaction h4 {
+  font-size: 20px;
+}
+
+.transaction h4, .transaction p {
+  float: left;
+  margin: 0;
+  padding: 3px;
+}
+
+.transaction img {
+}
+
+.transactions-block {
+  float: left;
+  display: inline-block;
+  width: 60%;
+}
+
+form input, form button {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+form input {
+    margin-right: 15px;
+  width: calc(100% - 126px);
+}
+
+.cat-span span {
+  float: left !important;
+  padding: 0;
+}
+
+.red {
+  color: red !important;
+}
+.green {
+  color: green !important;
+}
+
+.clear {
+  font-size: 15px;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.details {
+  float: right;
+  max-width: 38%;
+}
+
+.top-bar {
+  width: 100%;
+  height: 50px;
+
+}
+
+.top-bar h5, .top-bar button {
+  float: right;
+}
+
+.transactions {
+  margin-top: 10px;
+}
+
+a {
+  color: black;
+}
+
+.info {
+  width: auto;
+  float: right;
+}
+
+.transaction-link {
+  cursor: pointer;
+}
+
+.map-point {
+  position: relative;
+  left: 45%;
+  top: 34%;
+  width: 30px;
+  height: 30px;
+  background: #ddd);
+  border: 10px solid #e04246;
+  border-radius: 80px 80px 2px;
+  transform: rotate(45deg);
+  box-shadow: 3px 3px 20px #999;
+}
+
+.pot-button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.overflow {
+  overflow:auto;
+}
